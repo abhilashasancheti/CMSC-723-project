@@ -1,0 +1,25 @@
+{
+    "train": [
+        "/home/code-base/archive/data/processed/train.source.corrected.100k",
+        "/home/code-base/archive/data/processed/train.target.cls"
+    ],
+    "valid": [
+        "/home/code-base/archive/data/processed/valid.source.corrected.100k",
+        "/home/code-base/archive/data/processed/valid.target.cls"
+    ],
+    "vocab": [
+        "/home/code-base/archive/data/processed/source.cls.vocab.100k.corrected",
+        "/home/code-base/archive/data/processed/target.cls.vocab"
+    ],
+    "model_path": "/home/code-base/archive/outputs/beaver_base/",
+    "layers": 6,
+    "heads": 8,
+    "hidden_size": 512,
+    "ff_size": 2048,
+    "batch_size": 4096,
+    "warm_up": 16000,
+    "report_every": 100,
+    "save_every": 5000,
+    "max_to_keep": 50,
+    "tf": true
+}

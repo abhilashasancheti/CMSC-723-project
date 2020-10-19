@@ -1,0 +1,13 @@
+{
+    "vocab": [
+        "/home/code-base/archive/data/processed/source.cls.vocab.100k.corrected",
+        "/home/code-base/archive/data/processed/target.cls.vocab"
+    ],
+    "model_path": "/home/code-base/archive/outputs/beaver_base/-200527-045540/checkpoint-step-945000",
+    "input": "/home/code-base/archive/data/processed/test.source.corrected.100k",
+    "output": "/home/code-base/archive/outputs/outputs_100k/test.base.cls.output.100k.945000",
+    "min_length": 2,
+    "beam_size": 4,
+    "batch_size": 3000,
+    "tf": false
+}

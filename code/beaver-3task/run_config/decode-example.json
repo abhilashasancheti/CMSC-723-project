@@ -1,0 +1,21 @@
+{
+    "input": [
+        "/home/code-base/archive/data/processed/test.source.mt.corrected.100k",
+        "/home/code-base/archive/data/processed/test.source.corrected.100k"
+    ],
+    "vocab": [
+        "/home/code-base/archive/data/processed/source.cls.ms.mt.vocab.100k.corrected",
+        "/home/code-base/archive/data/processed/target.cls.mt.vocab"
+    ],
+    "model_path": "/home/code-base/archive/outputs/beaver_3task/-200619-032447/checkpoint-step-2040000",
+    "mono": false,
+    "min_length": 2,
+    "batch_size": 1000,
+    "tf": false,
+    "output": [
+        "/home/code-base/archive/outputs/test.3task.mt.output.100k.2040000",
+        "/home/code-base/archive/outputs/test.3task.ms.output.100k.2040000",
+        "/home/code-base/archive/outputs/test.3task.cls.output.100k.2040000"
+    ]
+}
+
